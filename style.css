@@ -1,0 +1,87 @@
+body {
+  background: #333 url(img/food8.jpeg) center no-repeat;
+  background-size: cover;
+  color: #532827;
+}
+
+#container {
+  width: 400px;
+  padding: 50px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  margin: 40px auto 0;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 10px 15px -8px #000;
+  background: url(img/paper-pattern.jpg) top left repeat;
+}
+
+h1 {
+  margin: 0 0 20px;
+  padding: 0 0 20px;
+  border-bottom: solid 1px #ddd;
+}
+
+form {
+  text-align: left;
+}
+form label {
+  display: block;
+  margin: 25px 0;
+  font-weight: bold;
+}
+
+form input,
+form select {
+  padding: 8px;
+  margin: 10px;
+}
+
+form input[type="number"] {
+  width: 90px;
+}
+
+button {
+  background: #6c2726;
+  color: white;
+  font-size: 18px;
+  width: 100%;
+  text-transform: uppercase;
+  border-bottom: solid 4px #222;
+  padding: 20px 30px;
+}
+
+/* bottom:hover {
+  background: #4c2827;
+  border-bottom-color: #111;
+}
+ */
+button:active {
+  position: relative;
+  top: 3px;
+}
+
+#totalTip {
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+#totalTip sup {
+  font-size: 24px;
+  top: -18px;
+}
+
+#totalTip:before {
+  content: "Tip amount";
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+
+#totalTip small {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+}
